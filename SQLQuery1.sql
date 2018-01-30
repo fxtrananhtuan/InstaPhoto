@@ -1,0 +1,1 @@
+﻿IF EXISTS(SELECT * from sysobjects WHERE name = 'philoan') BEGIN DROP table philoan; END  CREATE TABLE philoan (ID varchar(500) PRIMARY KEY NOT NULL, Username text NOT NULL, Profile_picture text NULL, caption text NULL)
